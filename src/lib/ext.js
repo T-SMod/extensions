@@ -4,7 +4,7 @@
         to help copy & pasting work better.
         Please, dont remove them :)
 */
-const extensions = [
+const tsExtensions = [
     {
         name: "JavaScript Runner",
         id: "shaman2016JavaScriptRunner",
@@ -43,4 +43,4 @@ const extensions = [
     }
 ];
 
-export default extensions
+export default tsExtensions

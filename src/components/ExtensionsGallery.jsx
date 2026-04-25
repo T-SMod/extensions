@@ -1,5 +1,5 @@
 import React, {useState, useMemo} from "react";
-import extensions from "../lib/ext";
+import tsExtensions from "../lib/ext";
 import "../styles/extensions.css";
 
 const creditLinkShortcuts = {
@@ -48,7 +48,7 @@ export default function ExtensionsGallery () {
 
     const filtered = useMemo(() => {
         const q = query.trim().toLowerCase();
-        let result = extensions;
+        let result = tsExtensions;
         if (sort === "abc") result = result.toSorted(
             (e1, e2) => (e1.name || "") === (e2.name || "") ? 0 : (e1.name || "") > (e2.name || "") ? 1 : -1
         );
@@ -67,7 +67,7 @@ export default function ExtensionsGallery () {
             );
         });
         return result;
-    }, [extensions, query, sort]);
+    }, [tsExtensions, query, sort]);
 
     return (
         <>

@@ -1,9 +1,7 @@
-//Простое расширение для пустого символа
+// Name: zwnj
+// ID: zwnjByDCat2026
+// By: DiamondCat2026 <https://scratch.mit.edu/users/DiamondCat2026-2/>
 
-/*
-   This extension was made with TurboBuilder!
-   https://turbobuilder-steel.vercel.app/
-*/
 (async function(Scratch) {
     const variables = {};
     const blocks = [];
@@ -137,7 +135,7 @@
     class Extension {
         getInfo() {
             return {
-                "id": "zwnjext",
+                "id": "zwnjByDCat2026",
                 "name": "zero width non joiner",
                 "color1": "#6cff6c",
                 "color2": "#32c500",

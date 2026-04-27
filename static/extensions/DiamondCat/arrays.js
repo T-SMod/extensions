@@ -1,12 +1,7 @@
-‎static/extensions/DaimondCat1234567/arrays.js‎
-+184
-Lines changed: 184 additions & 0 deletions
-Original file line number	Diff line number	Diff line change
-@@ -0,0 +1,184 @@
-/*
-   Created with ExtForge
-   https://jwklong.github.io/extforge
-*/
+// Name: Arrays
+// ID: ArraysByDCat2026
+// By: DiamondCat2026 <https://scratch.mit.edu/users/DiamondCat2026-2/>
+
 (async function(Scratch) {
     const variables = {};
     if (!Scratch.extensions.unsandboxed) {
@@ -67,78 +62,78 @@ Original file line number	Diff line number	Diff line change
             }
         }
     }
-    class Extension {
+    class ArraysByDCat2026 {
         getInfo() {
             return {
-                "id": "ArraysByDCat",
-                "name": "Arrays",
-                "color1": "#cbe4ff",
-                "blocks": [{
-                    "opcode": "block_0ac111a5600d8ba4",
-                    "text": "list with [db3a3a41f77a58eb]",
-                    "blockType": "reporter",
-                    "arguments": {
+                id: "ArraysByDCat2026",
+                name: "Arrays",
+                color1: "#cbe4ff",
+                blocks: [{
+                    opcode: "block_0ac111a5600d8ba4",
+                    text: "list with [db3a3a41f77a58eb]",
+                    blockType: Scratch.BlockType.ARRAY,
+                    arguments: {
                         "db3a3a41f77a58eb": {
-                            "type": "string"
+                            type: "string"
                         }
                     }
                 }, {
-                    "opcode": "block_9f67ea88664f4bc8",
-                    "text": "item [d2173188c3155c68] of [cb5db6c14a397264]",
-                    "blockType": "reporter",
-                    "arguments": {
+                    opcode: "block_9f67ea88664f4bc8",
+                    text: "item [d2173188c3155c68] of [cb5db6c14a397264]",
+                    blockType: Scratch.BlockType.ARRAY,
+                    arguments: {
                         "d2173188c3155c68": {
-                            "type": "number",
-                            "defaultValue": 1
+                            type: "number",
+                            defaultValue: 1
                         },
                         "cb5db6c14a397264": {
-                            "type": "string"
+                            type: "string"
                         }
                     }
                 }, {
-                    "opcode": "block_e8230f3848cde6cd",
-                    "text": "join [8e56b4c4d41a07e2] with [a6737aa7252d7533]",
-                    "blockType": "reporter",
-                    "arguments": {
+                    opcode: "block_e8230f3848cde6cd",
+                    text: "join [8e56b4c4d41a07e2] with [a6737aa7252d7533]",
+                    blockType: Scratch.BlockType.ARRAY,
+                    arguments: {
                         "8e56b4c4d41a07e2": {
-                            "type": "string"
+                            type: "string"
                         },
                         "a6737aa7252d7533": {
-                            "type": "string"
+                            type: "string"
                         }
                     }
                 }, {
-                    "opcode": "block_20302e14b6d23c3e",
-                    "text": "keys pressed",
-                    "blockType": "reporter",
-                    "arguments": {}
+                    opcode: "block_20302e14b6d23c3e",
+                    text: "keys pressed",
+                    blockType: Scratch.BlockType.ARRAY,
+                    arguments: {}
                 }, {
-                    "opcode": "block_1fadbb4790f52755",
-                    "text": "index of [906a48797d78a3a4] in [bd9080af32d32891]",
-                    "blockType": "reporter",
-                    "arguments": {
+                    opcode: "block_1fadbb4790f52755",
+                    text: "index of [906a48797d78a3a4] in [bd9080af32d32891]",
+                    blockType: Scratch.BlockType.ARRAY,
+                    arguments: {
                         "906a48797d78a3a4": {
-                            "type": "string"
+                            type: "string"
                         },
                         "bd9080af32d32891": {
-                            "type": "string"
+                            type: "string"
                         }
                     }
                 }, {
-                    "opcode": "block_706408811c42a599",
-                    "text": "empty list",
-                    "blockType": "reporter",
-                    "arguments": {}
+                    opcode: "block_706408811c42a599",
+                    text: "empty array",
+                    blockType: Scratch.BlockType.ARRAY,
+                    arguments: {}
                 }, {
-                    "opcode": "block_fa371b24f59fa4bd",
-                    "text": "[d581a34ca5537166] is in [565364348cf040ba]",
-                    "blockType": "Boolean",
-                    "arguments": {
+                    opcode: "block_fa371b24f59fa4bd",
+                    text: "[d581a34ca5537166] is in [565364348cf040ba]",
+                    blockType: "Boolean",
+                    arguments: {
                         "d581a34ca5537166": {
-                            "type": "string"
+                            type: "string"
                         },
                         "565364348cf040ba": {
-                            "type": "string"
+                            type: "string"
                         }
                     }
                 }]
@@ -171,7 +166,5 @@ Original file line number	Diff line number	Diff line change
             return ((((value) => value && value.length ? value : [value])(ExtForge.Variables.get("TEMP")).includes(args["d581a34ca5537166"])))
         }
     }
-    let extension = new Extension();
-    // code compiled from extforge
-    Scratch.extensions.register(extension);
+    Scratch.extensions.register(new ArraysByDCat2026());
 })(Scratch);

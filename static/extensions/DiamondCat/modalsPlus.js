@@ -1,7 +1,7 @@
-/*
-   This extension was made with TurboBuilder!
-   https://turbobuilder-steel.vercel.app/
-*/
+// Name: Modals+
+// ID: ModalsByDCat2026
+// By: DiamondCat2026 <https://scratch.mit.edu/users/DiamondCat2026-2/>
+
 (async function(Scratch) {
     const variables = {};
     const blocks = [];
@@ -136,8 +136,8 @@
     class Extension {
         getInfo() {
             return {
-                "id": "Modals123",
-                "name": "Modals++",
+                "id": "ModalsByDCat2026",
+                "name": "Modals+",
                 "color1": "#7e00fd",
                 "color2": "#4500a0",
                 "color3": "#7700c5",
